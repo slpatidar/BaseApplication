@@ -1,6 +1,45 @@
 <resources>
-    <string name="app_name">BaseApplication</string>
+    <string name="app_name">BaseApplicationNew</string>
     <bool name="isTablet">false</bool>
     <string name="dbpsw">teketeke</string>  <!--databas password-->
+    <string name="permission_location_title">Location Access</string>
+    <string name="permission_location_message">Grant permission to allow discovery by other users</string>
+    <string name="permission_location_not_granted">Location permissions not granted</string>
+    <string name="location_services_not_enabled">Location services not enabled</string>
+    <string name="location_services_problem_message">There was a problem with the location services. Make sure you enabled them in your phone settings.</string>
+    <string name="location_is_null">Location is null</string>
+    <string name="unable_to_save_file">Unable to save file&#8230;</string>
+    <string name="unable_to_send_location_message">Unable to send location message&#8230;</string>
+    <string name="unable_to_send_image_message">Unable to send image message&#8230;</string>
+    <string name="unable_to_send_message">unable to send message&#8230;</string>
+    <string name="file_read_permission_not_granted">Read external storage permission not granted</string>
+    <string name="record_permission_not_granted">Record permission not granted</string>
+    <string name="unable_to_save_image_to_disk">Unable to save image to disk</string>
+    <string name="couldnt_load_sticker_pack">Couldn\'t load sticker pack</string>
+    <string name="unable_to_load_image">Unable to load image</string>
+    <string name="__permission_not_granted" formatted="true">%s permission not granted. Please enable this permission in your phone\'s settings.</string>
+    <string name="error_permission_not_granted">Permission not granted: %s</string>
+
+
+    <string name="permission_record_audio_title">Microphone Access</string>
+    <string name="permission_record_audio_message">Grant permission to send audio messages</string>
+
+    <string name="permission_write_external_storage_title">Gallery Access</string>
+    <string name="permission_write_external_storage_message">Grant permission to allow images to be saved to your phone</string>
+
+    <string name="permission_manage_documents_storage_title">Manage Documents</string>
+    <string name="permission_manage_documents_message">Grant permission to allow your documents to be accessed</string>
+
+    <string name="permission_read_external_storage_title">Gallery Access</string>
+    <string name="permission_read_external_storage_message">Grant permission to allow images to be sent from your gallery</string>
+
+    <string name="permission_camera_title">Camera Access</string>
+    <string name="permission_camera_message">Grant permission to allow image messages to be sent</string>
+
+    <string name="permission_video_output_title">Camera Access</string>
+    <string name="permission_video_output_message">Grant permission to allow video messages to be sent</string>
+
+    <string name="permission_read_contacts_title">Contacts Access</string>
+    <string name="permission_read_contacts_message">Grant permission to allow contact book search</string>
 
 </resources>
